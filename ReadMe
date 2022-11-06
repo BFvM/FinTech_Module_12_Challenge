@@ -1,1 +1,19 @@
+Overview
+##In this Module we use machine learning tools to efficiently identify loans as either healthy or risky to overcome the imbalanced nature of the far greater amounts of healthy versus risky loans.
 
+##Results:
+
+Machine Learning Model 1: Logistic Regression with the original labeled data
+ - Balance Accuracy Score: 95%
+ - Precision (minority): 85%
+ - Recall scores (minority): 91%
+
+Machine Learning Model 2: Logistic Regression with the use of a Random Oversampled Data
+ - Balance Accuracy Score: 99.4%
+ - Precision (minority): 84%
+ - Recall scores (for both majority and minority data): 99%
+
+##Summary
+The Over Sampled model performed better with 99% resampled data score versus the original data score of 95%. This is reinforced by the classification matrix which also show an improvement on the loan analysis.
+
+The Logic Regression model is recommended to create a machine learning classifcation model 
